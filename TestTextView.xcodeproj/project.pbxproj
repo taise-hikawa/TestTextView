@@ -15,6 +15,7 @@
 		D3D0F55D25321C2600770F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D0F55B25321C2600770F47 /* LaunchScreen.storyboard */; };
 		D3D0F56825321C2700770F47 /* TestTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0F56725321C2700770F47 /* TestTextViewTests.swift */; };
 		D3D0F57325321C2700770F47 /* TestTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0F57225321C2700770F47 /* TestTextViewUITests.swift */; };
+		D3D0F5842532230C00770F47 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0F5832532230B00770F47 /* PlaceHolderTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D3D0F56E25321C2700770F47 /* TestTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D0F57225321C2700770F47 /* TestTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextViewUITests.swift; sourceTree = "<group>"; };
 		D3D0F57425321C2700770F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D0F5832532230B00770F47 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D3D0F54F25321C2000770F47 /* TestTextView */ = {
 			isa = PBXGroup;
 			children = (
+				D3D0F5832532230B00770F47 /* PlaceHolderTextView.swift */,
 				D3D0F55025321C2000770F47 /* AppDelegate.swift */,
 				D3D0F55225321C2000770F47 /* SceneDelegate.swift */,
 				D3D0F55425321C2000770F47 /* ViewController.swift */,
@@ -261,6 +264,7 @@
 				D3D0F55525321C2000770F47 /* ViewController.swift in Sources */,
 				D3D0F55125321C2000770F47 /* AppDelegate.swift in Sources */,
 				D3D0F55325321C2000770F47 /* SceneDelegate.swift in Sources */,
+				D3D0F5842532230C00770F47 /* PlaceHolderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

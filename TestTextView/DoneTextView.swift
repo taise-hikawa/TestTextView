@@ -1,6 +1,40 @@
+import Foundation
 import UIKit
 
- class PlaceHolderedTextView: UITextView {
+
+import UIKit
+
+class DoneTextView:UITextView {
+    override init(frame: CGRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer)
+        commonInit()
+        addObserver()
+    }
+
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonInit()
+        addObserver()
+    }
+
+    private func commonInit(){
+        let tools = UIToolbar()
+        tools.frame = CGRect(x: 0, y: 0, width: frame.width, height: 40)
+        //閉じるボタンを配置するためのスペース
+        let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+        let closeButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(self.closeButtonTapped))
+        // スペース、閉じるボタンを右側に配置
+        tools.items = [spacer, closeButton]
+        // textViewのキーボードにツールバーを設定
+        self.inputAccessoryView = tools
+    }
+    
+    @objc func closeButtonTapped(){
+        self.endEditing(true)
+        self.resignFirstResponder()
+    }
+    
     @IBInspectable var placeHolder: String = ""
     @IBInspectable var placeHolderColor: UIColor = .lightGray
 
@@ -47,17 +81,8 @@ import UIKit
         NotificationCenter.default.addObserver(self, selector: #selector(self.onChangedText(_:)), name: UITextView.textDidChangeNotification, object: self)
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        addObserver()
-    }
-
-    override init(frame: CGRect, textContainer: NSTextContainer?) {
-        super.init(frame: frame, textContainer: textContainer)
-        addObserver()
-    }
-
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
+
 }

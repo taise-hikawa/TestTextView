@@ -23,12 +23,12 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1bx-vI-gO4">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1bx-vI-gO4" customClass="DoneTextField" customModule="TestTextView" customModuleProvider="target">
                                 <rect key="frame" x="5" y="49" width="404" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vhR-Rb-RP1" customClass="PlaceHolderedTextView" customModule="TestTextView" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vhR-Rb-RP1" customClass="DoneTextView" customModule="TestTextView" customModuleProvider="target">
                                 <rect key="frame" x="5" y="657" width="404" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="MFi-52-AL6"/>

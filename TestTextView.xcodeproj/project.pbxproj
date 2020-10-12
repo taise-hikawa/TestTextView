@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32DF619253462A800F34A62 /* DoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DF618253462A800F34A62 /* DoneTextField.swift */; };
+		D32DF61E2534635100F34A62 /* DoneTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DF61D2534635100F34A62 /* DoneTextView.swift */; };
 		D3D0F55125321C2000770F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0F55025321C2000770F47 /* AppDelegate.swift */; };
 		D3D0F55325321C2000770F47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0F55225321C2000770F47 /* SceneDelegate.swift */; };
 		D3D0F55525321C2000770F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0F55425321C2000770F47 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32DF618253462A800F34A62 /* DoneTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTextField.swift; sourceTree = "<group>"; };
+		D32DF61D2534635100F34A62 /* DoneTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTextView.swift; sourceTree = "<group>"; };
 		D3D0F54D25321C2000770F47 /* TestTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D0F55025321C2000770F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D0F55225321C2000770F47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				D3D0F55225321C2000770F47 /* SceneDelegate.swift */,
 				D3D0F55425321C2000770F47 /* ViewController.swift */,
 				D3D0F55625321C2000770F47 /* Main.storyboard */,
+				D32DF618253462A800F34A62 /* DoneTextField.swift */,
+				D32DF61D2534635100F34A62 /* DoneTextView.swift */,
 				D3D0F55925321C2600770F47 /* Assets.xcassets */,
 				D3D0F55B25321C2600770F47 /* LaunchScreen.storyboard */,
 				D3D0F55E25321C2600770F47 /* Info.plist */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32DF619253462A800F34A62 /* DoneTextField.swift in Sources */,
+				D32DF61E2534635100F34A62 /* DoneTextView.swift in Sources */,
 				D3D0F55525321C2000770F47 /* ViewController.swift in Sources */,
 				D3D0F55125321C2000770F47 /* AppDelegate.swift in Sources */,
 				D3D0F55325321C2000770F47 /* SceneDelegate.swift in Sources */,

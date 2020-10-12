@@ -36,6 +36,15 @@ class ViewController: UIViewController,UITextFieldDelegate,UITextViewDelegate {
         super.viewDidLoad()
         button.isEnabled = false
         button.addTarget(self, action: #selector(self.buttonTapped(_:)), for: .touchUpInside)
+        // 枠のカラー
+        textView.layer.borderColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1.0).cgColor
+        
+        // 枠の幅
+        textView.layer.borderWidth = 1.0
+        
+        // 枠を角丸にする
+        textView.layer.cornerRadius = 5.0
+        textView.layer.masksToBounds = true
     }
     override func viewWillAppear(_ animated: Bool) {
 
